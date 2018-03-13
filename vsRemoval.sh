@@ -1,4 +1,4 @@
-# Uninstall Java From Mac
+# Uninstall VS Code from MAC
 echo "Uninstalling VS Code From Mac..."
 sudo rm -rf "/Applications/Visual Studio Code.app"
 rm -fr ~/Library/Preferences/com.microsoft.VSCode.helper.plist 
