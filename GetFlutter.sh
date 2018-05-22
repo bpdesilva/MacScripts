@@ -1,5 +1,5 @@
 echo "Changing Directory to Downloads...."
-sudo cd ~/download
+sudo cd ~/downloads
 echo "Downloading Flutter....."
 curl -LO https://storage.googleapis.com/flutter_infra/releases/beta/macos/flutter_macos_v0.3.2-beta.zip
 echo "Extracting Flutter........."
