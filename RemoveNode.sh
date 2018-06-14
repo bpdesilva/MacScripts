@@ -13,7 +13,7 @@ sudo rm -rf ~/.npm
 sudo rm -rf ~/.node-gyp
 sudo rm /opt/local/bin/node
 sudo rm /opt/local/include/node
-sudo rm–rf /usr/local/bin/node
+sudo rm –rf /usr/local/bin/node
 sudo rm -rf /opt/local/lib/node_modules
 sudo rm -rf /Users/[homedir]/.npm
 sudo rm -rf /usr/local/bin/npm
