@@ -1,3 +1,8 @@
+if [ "${USER}" != "root" ]; then
+	echo "$0 must be run as root!"
+	exit 2
+fi
+
 echo "Changing Directory to Downloads...."
 sudo cd ~/downloads
 echo "Downloading Flutter....."
