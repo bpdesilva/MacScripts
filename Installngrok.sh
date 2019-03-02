@@ -5,5 +5,5 @@ if which brew | grep -q 'brew not found'; then
 else
     echo "Updating brew..."
     brew update
+    brew install cask ngrok
 fi
-brew install cask ngrok
