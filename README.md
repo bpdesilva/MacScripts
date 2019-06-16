@@ -8,7 +8,7 @@ Some scripts may require super user privileges.
 
 Example:
 
-curl -s -L https://raw.githubusercontent.com/bpdesilva/MacScripts/master/uninstallVSCode.sh | bash
+curl -s -L https://raw.githubusercontent.com/bpdesilva/MacScripts/master/Uninstallers/uninstallVSCode.sh | bash
 
 # OR 
 
