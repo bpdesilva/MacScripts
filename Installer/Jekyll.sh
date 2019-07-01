@@ -1,4 +1,4 @@
-echo "##################### NOTE : This script work with Mojave ###############"
+echo "##################### NOTE : This script works with Mojave ###############"
 xcode-select --install
 which -s brew
 if [[ $? != 0 ]] ; then
