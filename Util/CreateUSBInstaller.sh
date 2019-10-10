@@ -1,6 +1,11 @@
 #!/bin/bash
 # Source : https://support.apple.com/en-us/HT201372
 
+if [ "${USER}" != "root" ]; then
+	echo "$0 must be run as root!"
+	exit 2
+fi
+
 PS3='Please enter your choice: '
 MacOS=("MacOS Catalina" "MacOS Mojave" "MacOS HighSierra" "MacOS Sierra" "Quit")
 select macos in "${MacOS[@]}"
