@@ -7,7 +7,7 @@ if [ "${USER}" != "root" ]; then
 fi
 
 PS3='Please enter your choice: '
-MacOS=("MacOS BigSur" "MacOS Catalina" "MacOS Mojave" "MacOS HighSierra" "MacOS Sierra" "Quit")
+MacOS=("MacOS BigSur" "MacOS Catalina" "MacOS Mojave" "MacOS HighSierra" "MacOS Sierra" "MacOS Sonoma" "Quit")
 select macos in "${MacOS[@]}"
 do
     case $macos in
@@ -30,6 +30,10 @@ do
         "MacOS Sierra")
             echo "you chose choice Sierra"
             sudo /Applications/Install\ macOS\ Sierra.app/Contents/Resources/createinstallmedia --volume /Volumes/Untitled --nointeraction
+            ;;
+        "MacOS Sonoma")
+            echo "you chose choice Sonoma"
+            sudo /Applications/Install\ macOS\ Sonoma.app/Contents/Resources/createinstallmedia --volume /Volumes/Untitled --nointeraction
             ;;
         "Quit")
             break
