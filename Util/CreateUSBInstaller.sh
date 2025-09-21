@@ -35,6 +35,10 @@ do
             echo "you chose choice Sonoma"
             sudo /Applications/Install\ macOS\ Sonoma.app/Contents/Resources/createinstallmedia --volume /Volumes/Untitled --nointeraction
             ;;
+        "MacOS Tahoe")
+            echo "you chose choice Tahoe"
+            sudo /Applications/Install\ macOS\ Tahoe.app/Contents/Resources/createinstallmedia --volume /Volumes/Untitled --nointeraction
+            ;;
         "Quit")
             break
             ;;
