@@ -39,6 +39,10 @@ do
             echo "you chose choice Tahoe"
             sudo /Applications/Install\ macOS\ Tahoe.app/Contents/Resources/createinstallmedia --volume /Volumes/Untitled --nointeraction
             ;;
+		"MacOS GoldenGate")
+            echo "you chose choice GoldenGate"
+            sudo /Applications/Install\ macOS\ 27\ Golden\ Gate.app/Contents/Resources/createinstallmedia --volume /Volumes/Untitled
+            ;;
         "Quit")
             break
             ;;
